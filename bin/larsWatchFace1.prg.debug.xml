@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="15" pc="268435456" symbol="initialize"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="16" pc="268435460" symbol="initialize"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="20" pc="268435479" symbol="onLayout"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="21" pc="268435483" symbol="onLayout"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="27" pc="268435521" symbol="onShow"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="31" pc="268435526" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="33" pc="268435530" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="34" pc="268435547" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="37" pc="268435621" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="39" pc="268435633" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="40" pc="268435669" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="45" pc="268435717" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="51" pc="268435721" symbol="onHide"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="55" pc="268435726" symbol="onExitSleep"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="59" pc="268435731" symbol="onEnterSleep"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="5" pc="268435736" symbol="initialize"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="6" pc="268435740" symbol="initialize"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="10" pc="268435759" symbol="onStart"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="14" pc="268435764" symbol="onStop"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="18" pc="268435769" symbol="getInitialView"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="19" pc="268435773" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="18" pc="268435811" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="22" pc="268435823" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="23" pc="268435986" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="24" pc="268436011" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="25" pc="268436063" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="28" pc="268436109" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="9" object="true" symbol="larsWatchFace1View"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="14" symbol="AppName"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="8389348" symbol="font"/>
+<entry id="10" object="true" symbol="larsWatchFace1App"/>
+<entry id="8389347" symbol="color"/>
+<entry id="12" module="true" symbol="Layouts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="11" module="true" symbol="Menus"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435521" name="dc" stackId="1" startPc="268435479"/>
+<entry endPc="268435720" name="timeString" stackId="3" startPc="268435530"/>
+<entry endPc="268435720" name="clockTime" stackId="2" startPc="268435530"/>
+<entry endPc="268435721" name="dc" stackId="1" startPc="268435526"/>
+<entry endPc="268435764" name="state" stackId="1" startPc="268435759"/>
+<entry endPc="268435769" name="state" stackId="1" startPc="268435764"/>
+<entry endPc="268436126" name="rez_cmp_local_bitmap_TimeLabel" stackId="2" startPc="268435823"/>
+<entry endPc="268436126" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="3" startPc="268435823"/>
+<entry endPc="268436127" name="dc" stackId="1" startPc="268435811"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="larsWatchFace1View">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="larsWatchFace1View">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="larsWatchFace1View">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="larsWatchFace1View">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="larsWatchFace1View">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="larsWatchFace1View">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="larsWatchFace1View">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="larsWatchFace1App">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="larsWatchFace1App">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="larsWatchFace1App">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="larsWatchFace1App">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="WatchFace" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="166" parentId="globals" symbolId="larsWatchFace1App" type="class"/>
+<dataEntry offset="237" parentId="globals" symbolId="larsWatchFace1View" type="class"/>
+<dataEntry offset="332" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="411" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="450" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="481" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="512" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="543" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="582" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+</debugInfo>
