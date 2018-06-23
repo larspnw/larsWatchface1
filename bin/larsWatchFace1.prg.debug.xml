@@ -1,38 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="15" pc="268435456" symbol="initialize"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="16" pc="268435460" symbol="initialize"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="20" pc="268435479" symbol="onLayout"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="21" pc="268435483" symbol="onLayout"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="27" pc="268435521" symbol="onShow"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="31" pc="268435526" symbol="onUpdate"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="33" pc="268435530" symbol="onUpdate"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="34" pc="268435547" symbol="onUpdate"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="37" pc="268435621" symbol="onUpdate"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="39" pc="268435633" symbol="onUpdate"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="40" pc="268435669" symbol="onUpdate"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="45" pc="268435717" symbol="onUpdate"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="51" pc="268435721" symbol="onHide"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="55" pc="268435726" symbol="onExitSleep"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="59" pc="268435731" symbol="onEnterSleep"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="5" pc="268435736" symbol="initialize"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="6" pc="268435740" symbol="initialize"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="10" pc="268435759" symbol="onStart"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="14" pc="268435764" symbol="onStop"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="18" pc="268435769" symbol="getInitialView"/>
-<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="19" pc="268435773" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="18" pc="268435811" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="22" pc="268435823" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="23" pc="268435986" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="24" pc="268436011" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="25" pc="268436063" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="28" pc="268436109" symbol="WatchFace"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="23" pc="268435456" symbol="initialize"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="24" pc="268435460" symbol="initialize"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="28" pc="268435479" symbol="onLayout"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="29" pc="268435483" symbol="onLayout"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="35" pc="268435521" symbol="onShow"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="39" pc="268435526" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="40" pc="268435530" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="41" pc="268435570" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="44" pc="268435582" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="45" pc="268435599" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="46" pc="268435609" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="47" pc="268435620" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="48" pc="268435633" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="49" pc="268435644" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="51" pc="268435657" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="52" pc="268435667" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="53" pc="268435691" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="54" pc="268435708" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="57" pc="268435745" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="58" pc="268435781" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="61" pc="268435841" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="62" pc="268435877" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="65" pc="268435937" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="66" pc="268435973" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="69" pc="268436039" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="70" pc="268436075" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="72" pc="268436147" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="74" pc="268436161" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="75" pc="268436178" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="76" pc="268436185" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="77" pc="268436197" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="81" pc="268436207" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="82" pc="268436214" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="83" pc="268436231" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="86" pc="268436241" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="87" pc="268436277" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="90" pc="268436346" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="91" pc="268436382" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="93" pc="268436439" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="94" pc="268436451" symbol="onUpdate"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="97" pc="268436455" symbol="getMinHR"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="98" pc="268436459" symbol="getMinHR"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="99" pc="268436492" symbol="getMinHR"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="100" pc="268436513" symbol="getMinHR"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="102" pc="268436526" symbol="getMinHR"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="108" pc="268436530" symbol="onHide"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="112" pc="268436535" symbol="onExitSleep"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="116" pc="268436540" symbol="onEnterSleep"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="119" pc="268436545" symbol="drawBattery"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="120" pc="268436549" symbol="drawBattery"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="121" pc="268436578" symbol="drawBattery"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="122" pc="268436610" symbol="drawBattery"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="124" pc="268436642" symbol="drawBattery"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="125" pc="268436658" symbol="drawBattery"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="126" pc="268436675" symbol="drawBattery"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="127" pc="268436694" symbol="drawBattery"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="128" pc="268436711" symbol="drawBattery"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="130" pc="268436730" symbol="drawBattery"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="132" pc="268436758" symbol="drawBattery"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="133" pc="268436795" symbol="drawBattery"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="135" pc="268436806" symbol="drawBattery"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="136" pc="268436817" symbol="drawBattery"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1View.mc" lineNum="138" pc="268436827" symbol="drawBattery"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="5" pc="268436860" symbol="initialize"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="6" pc="268436864" symbol="initialize"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="10" pc="268436883" symbol="onStart"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="14" pc="268436888" symbol="onStop"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="18" pc="268436893" symbol="getInitialView"/>
+<entry filename="/home/lars/eclipse-workspace/larsWatchFace1/./source/larsWatchFace1App.mc" lineNum="19" pc="268436897" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="18" pc="268436935" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="22" pc="268436947" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="23" pc="268437110" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="24" pc="268437135" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="25" pc="268437187" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="28" pc="268437233" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389349" symbol="justification"/>
+<entry id="14" method="true" symbol="drawBattery"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8388645" module="true" symbol="Time"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
@@ -41,36 +91,53 @@
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="9" object="true" symbol="larsWatchFace1View"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="14" symbol="AppName"/>
+<entry field="true" id="18" symbol="AppName"/>
+<entry field="true" id="8389543" symbol="phoneConnected"/>
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
-<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry field="true" id="17" symbol="LauncherIcon"/>
 <entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="11" symbol="batteryPct"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry field="true" id="12" symbol="alarmSet"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
 <entry id="8389348" symbol="font"/>
 <entry id="10" object="true" symbol="larsWatchFace1App"/>
 <entry id="8389347" symbol="color"/>
-<entry id="12" module="true" symbol="Layouts"/>
+<entry id="16" module="true" symbol="Layouts"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="13" method="true" symbol="getMinHR"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry id="11" module="true" symbol="Menus"/>
+<entry id="15" module="true" symbol="Menus"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 </symbolTable>
 <localVars>
 <entry endPc="268435521" name="dc" stackId="1" startPc="268435479"/>
-<entry endPc="268435720" name="timeString" stackId="3" startPc="268435530"/>
-<entry endPc="268435720" name="clockTime" stackId="2" startPc="268435530"/>
-<entry endPc="268435721" name="dc" stackId="1" startPc="268435526"/>
-<entry endPc="268435764" name="state" stackId="1" startPc="268435759"/>
-<entry endPc="268435769" name="state" stackId="1" startPc="268435764"/>
-<entry endPc="268436126" name="rez_cmp_local_bitmap_TimeLabel" stackId="2" startPc="268435823"/>
-<entry endPc="268436126" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="3" startPc="268435823"/>
-<entry endPc="268436127" name="dc" stackId="1" startPc="268435811"/>
+<entry endPc="268436454" name="phoneIcon" stackId="9" startPc="268435530"/>
+<entry endPc="268436454" name="currentInfo" stackId="7" startPc="268435530"/>
+<entry endPc="268436454" name="ds" stackId="8" startPc="268435530"/>
+<entry endPc="268436454" name="clockTime" stackId="2" startPc="268435530"/>
+<entry endPc="268436454" name="currentMoment" stackId="6" startPc="268435530"/>
+<entry endPc="268436454" name="almIcon" stackId="10" startPc="268435530"/>
+<entry endPc="268436454" name="hourString" stackId="4" startPc="268435530"/>
+<entry endPc="268436454" name="hour" stackId="3" startPc="268435530"/>
+<entry endPc="268436454" name="minString" stackId="5" startPc="268435530"/>
+<entry endPc="268436455" name="dc" stackId="1" startPc="268435526"/>
+<entry endPc="268436529" name="hrIterator" stackId="2" startPc="268436459"/>
+<entry endPc="268436529" name="min" stackId="3" startPc="268436459"/>
+<entry endPc="268436529" name="dur" stackId="1" startPc="268436459"/>
+<entry endPc="268436859" name="color" stackId="2" startPc="268436549"/>
+<entry endPc="268436859" name="width" stackId="3" startPc="268436549"/>
+<entry endPc="268436860" name="dc" stackId="1" startPc="268436545"/>
+<entry endPc="268436888" name="state" stackId="1" startPc="268436883"/>
+<entry endPc="268436893" name="state" stackId="1" startPc="268436888"/>
+<entry endPc="268437250" name="rez_cmp_local_bitmap_TimeLabel" stackId="2" startPc="268436947"/>
+<entry endPc="268437250" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="3" startPc="268436947"/>
+<entry endPc="268437251" name="dc" stackId="1" startPc="268436935"/>
 </localVars>
 <annotations/>
 <functions>
@@ -88,6 +155,9 @@
 <param id="dc"/>
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="getMinHR" parent="larsWatchFace1View">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="onHide" parent="larsWatchFace1View">
 <documentation/>
 </functionEntry>
@@ -95,6 +165,10 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onEnterSleep" parent="larsWatchFace1View">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawBattery" parent="larsWatchFace1View">
+<param id="dc"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="larsWatchFace1App">
@@ -120,12 +194,12 @@
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry offset="166" parentId="globals" symbolId="larsWatchFace1App" type="class"/>
 <dataEntry offset="237" parentId="globals" symbolId="larsWatchFace1View" type="class"/>
-<dataEntry offset="332" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="411" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="450" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="481" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="512" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="543" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="582" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="372" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="451" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="490" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="521" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="552" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="583" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="622" parentId="Rez" symbolId="Strings" type="module"/>
 </dataEntryOffsetMappings>
 </debugInfo>
