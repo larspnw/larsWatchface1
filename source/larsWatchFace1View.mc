@@ -4,10 +4,11 @@ using Toybox.System as Sys;
 using Toybox.Lang as Lang;
 using Toybox.Time as Time;
 using Toybox.ActivityMonitor as ActMon;
+using Toybox.UserProfile as Profile;
 
 class larsWatchFace1View extends Ui.WatchFace {
 
-	/* TODO
+	/* 
 		battery
 		phone connected
 		alarm set
@@ -19,7 +20,9 @@ class larsWatchFace1View extends Ui.WatchFace {
 	var batteryPct;
 	var phoneConnected;
 	var alarmSet;	
-	
+	var lastRHR = 0;
+	var countRHR = 0;
+		
     function initialize() {
         WatchFace.initialize();
     }
@@ -52,14 +55,16 @@ class larsWatchFace1View extends Ui.WatchFace {
         var minString = clockTime.min.format("%02d");
       	var currentMoment = Time.now();
         var currentInfo = Time.Gregorian.info(currentMoment, Time.FORMAT_MEDIUM); 
-        
+     
 		//hour
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
-        dc.drawText(dc.getWidth()/2, 80, Gfx.FONT_NUMBER_THAI_HOT, hourString, Gfx.TEXT_JUSTIFY_RIGHT);
+        //dc.drawText(dc.getWidth()/2, 80, Gfx.FONT_NUMBER_THAI_HOT, hourString, Gfx.TEXT_JUSTIFY_RIGHT);
+        dc.drawText(dc.getWidth()/2, 80, Gfx.FONT_SYSTEM_NUMBER_THAI_HOT, hourString, Gfx.TEXT_JUSTIFY_RIGHT);
 		
 		//min        
         dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_BLACK);
-        dc.drawText(dc.getWidth()/2, 80, Gfx.FONT_NUMBER_THAI_HOT, minString, Gfx.TEXT_JUSTIFY_LEFT);
+        //dc.drawText(dc.getWidth()/2, 80, Gfx.FONT_NUMBER_THAI_HOT, minString, Gfx.TEXT_JUSTIFY_LEFT);
+        dc.drawText(dc.getWidth()/2, 80, Gfx.FONT_SYSTEM_NUMBER_THAI_HOT, minString, Gfx.TEXT_JUSTIFY_LEFT);
 	
 		//month	
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
@@ -87,12 +92,38 @@ class larsWatchFace1View extends Ui.WatchFace {
         dc.drawText(dc.getWidth()/2, 30, Gfx.FONT_TINY, phoneIcon + " " + almIcon, Gfx.TEXT_JUSTIFY_CENTER);
 		
 		//min HR        
+        //dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
+        //dc.drawText(120, 210, Gfx.FONT_SMALL, getMinHR(), Gfx.TEXT_JUSTIFY_RIGHT);
+		
+		//RHR
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
         dc.drawText(120, 210, Gfx.FONT_SMALL, getMinHR(), Gfx.TEXT_JUSTIFY_RIGHT);
+        //TODO - change color based on increasing or decreasing?
 		
-		getMinHR();
         return true;
     }
+   
+   /* only displays static variable 
+    function getRHR() {
+    //	System.println("getRHR: enter");
+   		var rhr = Profile.getProfile().restingHeartRate;
+    	//System.println("getRHR: rhr");
+    	if ( lastRHR == 0 || rhr == lastRHR ) {
+    		lastRHR = rhr;
+   			return rhr;
+   		} else {
+   			var diff = lastRHR - rhr;
+   			//story RHR as last after an hour or so
+   			if (countRHR > 60 ) {
+   				lastRHR = rhr;
+   				countRHR = 0;
+   			} else {
+   				countRHR++;
+   			}
+   			return rhr + ":" + diff;
+   		}	
+    }
+    */
 
 	function getMinHR() {
 		var dur = new Time.Duration(86400/3);  //8 hours
