@@ -37,7 +37,7 @@ class larsWatchFace1View extends Ui.WatchFace {
     // loading resources into memory.
     function onShow() {
     }
-
+    
     // Update the view
     function onUpdate(dc) {
         dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_BLACK);
