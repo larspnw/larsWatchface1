@@ -17,7 +17,9 @@ class larsWatchFace1View extends Ui.WatchFace {
 		time two colors
 	*/
 
-	var batteryPct;
+	//TODO externalize this
+	var SOUNDERSLAYOUT = 1;
+	var batteryPct;   
 	var phoneConnected;
 	var alarmSet;	
 	var lastRHR = 0;
@@ -40,9 +42,24 @@ class larsWatchFace1View extends Ui.WatchFace {
     
     // Update the view
     function onUpdate(dc) {
-        dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_BLACK);
+    	
+    	var textVoffset = 0;
+    	if (SOUNDERSLAYOUT) {
+        	//dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_WHITE);
+        	dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_BLACK);
+        	
+        	textVoffset = 45;
+        } else {
+        	dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_BLACK);
+        }
+        
         dc.clear();
-
+    	
+		//TODO - add configuration externally
+		if (SOUNDERSLAYOUT) {
+			dc.drawBitmap(40, 0, WatchUi.loadResource(Rez.Drawables.soundersbg));
+		}
+		
         // Get and show the current time and date
         var clockTime = Sys.getClockTime();
         var hour = clockTime.hour;
@@ -56,25 +73,51 @@ class larsWatchFace1View extends Ui.WatchFace {
       	var currentMoment = Time.now();
         var currentInfo = Time.Gregorian.info(currentMoment, Time.FORMAT_MEDIUM); 
      
+     	var textBg = Gfx.COLOR_BLACK;
+     	if (SOUNDERSLAYOUT) {
+     		textBg = Gfx.COLOR_TRANSPARENT;
+     		
+     	}
 		//hour
-        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
-        //dc.drawText(dc.getWidth()/2, 80, Gfx.FONT_NUMBER_THAI_HOT, hourString, Gfx.TEXT_JUSTIFY_RIGHT);
-        dc.drawText(dc.getWidth()/2, 80, Gfx.FONT_SYSTEM_NUMBER_THAI_HOT, hourString, Gfx.TEXT_JUSTIFY_RIGHT);
+		if (SOUNDERSLAYOUT) {
+			dc.setColor(Gfx.COLOR_DK_GREEN, textBg);
+	        dc.drawText(90, 160, Gfx.FONT_SYSTEM_NUMBER_HOT, hourString, Gfx.TEXT_JUSTIFY_RIGHT);
+		} else {
+        	dc.setColor(Gfx.COLOR_WHITE, textBg);
+	        dc.drawText(dc.getWidth()/2, 80, Gfx.FONT_NUMBER_THAI_HOT, hourString, Gfx.TEXT_JUSTIFY_RIGHT);
+        }
 		
 		//min        
-        dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_BLACK);
-        //dc.drawText(dc.getWidth()/2, 80, Gfx.FONT_NUMBER_THAI_HOT, minString, Gfx.TEXT_JUSTIFY_LEFT);
-        dc.drawText(dc.getWidth()/2, 80, Gfx.FONT_SYSTEM_NUMBER_THAI_HOT, minString, Gfx.TEXT_JUSTIFY_LEFT);
+        if (SOUNDERSLAYOUT) {
+			dc.setColor(Gfx.COLOR_BLUE, textBg);
+	        dc.drawText(150, 160, Gfx.FONT_SYSTEM_NUMBER_HOT, minString, Gfx.TEXT_JUSTIFY_LEFT);
+		} else {
+        	dc.setColor(Gfx.COLOR_BLUE, textBg);
+        	dc.drawText(dc.getWidth()/2, 80, Gfx.FONT_NUMBER_THAI_HOT, minString, Gfx.TEXT_JUSTIFY_LEFT);
+        }
 	
-		//month	
-        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
-        dc.drawText(dc.getWidth()/2, 150, Gfx.FONT_TINY, currentInfo.month, Gfx.TEXT_JUSTIFY_RIGHT);
+	//TODO so sloppy - fix up text color with a variable? set once
+		//date
+		if (SOUNDERSLAYOUT) {
+			//month	
+        	dc.setColor(Gfx.COLOR_DK_GREEN, textBg);
+			dc.drawText(1, 90, Gfx.FONT_TINY, currentInfo.month, Gfx.TEXT_JUSTIFY_LEFT);
         
-		//day	
-        dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_BLACK);
-        dc.drawText(dc.getWidth()/2 + 5, 150, Gfx.FONT_TINY, currentInfo.day, Gfx.TEXT_JUSTIFY_LEFT);
-
+			//day	
+        	dc.setColor(Gfx.COLOR_BLUE, textBg);
+        	dc.drawText(3 , 110, Gfx.FONT_TINY, currentInfo.day, Gfx.TEXT_JUSTIFY_LEFT);
+		} else {
+			//month
+        	dc.setColor(Gfx.COLOR_WHITE, textBg);
+        	dc.drawText(dc.getWidth()/2, 150, Gfx.FONT_TINY, currentInfo.month, Gfx.TEXT_JUSTIFY_RIGHT);
+        
+			//day	
+        	dc.setColor(Gfx.COLOR_BLUE, textBg);
+        	dc.drawText(dc.getWidth()/2 + 5 , 150, Gfx.FONT_TINY, currentInfo.day, Gfx.TEXT_JUSTIFY_LEFT);
+        }
+        
 		drawBattery(dc);
+		
 	
 		var ds = Sys.getDeviceSettings();	
 		var phoneIcon = "";
@@ -88,7 +131,8 @@ class larsWatchFace1View extends Ui.WatchFace {
 			almIcon = "alm";
 		}
 
-        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
+//TODO chg bg's to variable for soudners layout
+        dc.setColor(Gfx.COLOR_WHITE, textBg);
         dc.drawText(dc.getWidth()/2, 30, Gfx.FONT_TINY, phoneIcon + " " + almIcon, Gfx.TEXT_JUSTIFY_CENTER);
 		
 		//min HR        
@@ -96,10 +140,14 @@ class larsWatchFace1View extends Ui.WatchFace {
         //dc.drawText(120, 210, Gfx.FONT_SMALL, getMinHR(), Gfx.TEXT_JUSTIFY_RIGHT);
 		
 		//RHR
-        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
-        dc.drawText(120, 210, Gfx.FONT_SMALL, getMinHR(), Gfx.TEXT_JUSTIFY_RIGHT);
-        //TODO - change color based on increasing or decreasing?
-		
+		if (SOUNDERSLAYOUT) {
+			dc.setColor(Gfx.COLOR_BLUE, textBg);
+        	dc.drawText(240, 95, Gfx.FONT_SMALL, getMinHR(), Gfx.TEXT_JUSTIFY_RIGHT);
+		} else {
+        	dc.setColor(Gfx.COLOR_WHITE, textBg);
+        	dc.drawText(120, 210, Gfx.FONT_SMALL, getMinHR(), Gfx.TEXT_JUSTIFY_RIGHT);
+        }
+        
         return true;
     }
    
